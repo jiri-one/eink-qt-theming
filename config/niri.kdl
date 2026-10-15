@@ -1,0 +1,25 @@
+// Add to ~/.config/niri/config.kdl. Qt picks GNOME-style (adwaita) title bars only when
+// XDG_CURRENT_DESKTOP contains GNOME and otherwise falls back to the plain "bradient" ones.
+environment {
+    QT_WAYLAND_DECORATION "adwaita"
+}
+
+// All windows like libadwaita's in high contrast: 15 px corners and an 80 % black outline. Clipping
+// drops client-side shadows too, so GTK, Qt and other windows match. Put it before your other window
+// rules so they can still override it.
+window-rule {
+    geometry-corner-radius 15
+    clip-to-geometry true
+    // A filled background would show through translucent windows.
+    draw-border-with-background false
+    border {
+        on
+        width 1
+        active-color "#333333"
+        inactive-color "#333333"
+    }
+}
+
+// Also turn the focus ring off in your layout section: even at width 0 niri fills the active window's
+// background with it, and that shows through the rounded corners.
+//     layout { focus-ring { off } }

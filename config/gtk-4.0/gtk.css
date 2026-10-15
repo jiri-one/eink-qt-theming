@@ -1,0 +1,7 @@
+/* E-ink shows any accent colour as mid grey: black keeps check marks and button labels crisp, and
+   libadwaita's translucent uses of it (selections, focus rings) still come out as readable greys. */
+:root {
+  --accent-bg-color: #000000;
+  --accent-fg-color: #ffffff;
+  --accent-color: #000000;
+}

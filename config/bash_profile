@@ -1,0 +1,2 @@
+# Append to ~/.bash_profile so D-Bus-activated apps get it too (niri-session imports the login environment).
+export QT_WAYLAND_DECORATION=adwaita

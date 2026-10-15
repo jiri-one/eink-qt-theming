@@ -1,0 +1,15 @@
+# Head of ~/.config/kdeglobals; install.sh appends the colour groups from kde/Eink.colors.
+[General]
+ColorScheme=Eink
+
+[UiSettings]
+ColorScheme=Eink
+
+[KDE]
+AnimationDurationFactor=0
+contrast=10
+frameContrast=1.0
+widgetStyle=kvantum
+
+[Icons]
+Theme=Eink
