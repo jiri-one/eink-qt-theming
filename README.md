@@ -147,3 +147,5 @@ control shapes of [adwaita-qt 2.0](https://github.com/victorvintorez/adwaita-qt)
 [FedoraQt/adwaita-qt](https://github.com/FedoraQt/adwaita-qt), the
 [Cawnonical Mono-Glyph Icon Suite](https://store.kde.org/p/2298642), GNOME's HighContrast and Adwaita icons, and
 KDE's Breeze icons.
+
+[#arch-everywhere](https://github.com/topics/arch-everywhere) [#iusearchbtw](https://github.com/topics/iusearchbtw)
